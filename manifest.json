@@ -1,0 +1,10 @@
+{
+  "manifest_version": 3,
+  "name": "Scrubby",
+  "version": "0.1.0",
+  "description": "Adds a seek bar to Instagram Reels and videos.",
+  "icons": { "128": "icon128.png" },
+  "content_scripts": [
+    { "matches": ["https://www.instagram.com/*"], "js": ["content.js"] }
+  ]
+}
